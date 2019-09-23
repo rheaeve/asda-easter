@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+}
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700&display=swap');
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  box-shadow: 0px 4px 10px 2px rgba(0,0,0,0.3);
+}
+.logo-area {
+
+  height: 70px;
+  padding-left: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 36px;
+}
+
+nav {
+  background-color: #373737;
+}
+
+nav .links {
+  width: 80%;
+  height: 40px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #fff 10px;
+}
+
+nav .links:last-child img {
+  width: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  width: 100vw;
+  max-height: 800px;
+  background-image: url('easter-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 300px 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 90px;
+  line-height: 1;
+  color: #fb3d0a;
+  text-align: center;
+  margin: 0 auto;
+}
+
+span.bold {
+  font-weight: 600;
+}
+
+.eggs {
+  height: 118px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbe4e8;
+}
+
+.egg {
+  width: 50px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.text-image {
+  width: 100%;
+  display: flex;
+}
+
+.text-box {
+  width: 50%;
+  background-color: #ecf2fe;
+  position: relative;
+}
+
+.text-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width: 430px;
+  text-align: center;
+}
+
+.text-1 h2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat Alternates';
+  font-size: 35px;
+  font-weight: 600;
+}
+.image {
+  width: 50%;
+}
+
+
+
+.buttons {
+   width: 100%;
+  height: 165px;
+  background-color: #FFFAE0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #fbe4e8;
+  width: 340px;
+  height: 65px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fb3d0a;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.recipes {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-2 {
+  margin: 40px auto;
+  text-align: center;
+  width: 900px;
+}
+
+
+.recipe img {
+  width: 25vw;
+  margin: 10px 15px;
+}
+
+.recipe a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.5s ease;
+}
+
+.recipe a:hover {
+  color: #fb3d0a;
+}
+
+footer {
+  background-color: #373737;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  padding-top: 12px;
+  font-size: 12px;
+}

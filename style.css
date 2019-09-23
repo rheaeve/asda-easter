@@ -99,6 +99,10 @@ span.bold {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 
+.egg:nth-child(odd) {
+  background-color: #fb3d0a;;
+}
+
 .text-image {
   width: 100%;
   display: flex;
@@ -131,8 +135,6 @@ h2 {
 .image {
   width: 50%;
 }
-
-
 
 .buttons {
    width: 100%;
